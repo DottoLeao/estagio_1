@@ -46,7 +46,7 @@ A lâmpada acesa estará conectada ao interruptor 1, a lâmpada quente estará c
 ## 5) Inverter os caracteres de uma string
 
 ```
-  function inverterString(str) {
+function inverterString(str) {
     let novaString = "";
     for (let i = str.length - 1; i >= 0; i--) {
         novaString += str[i];
@@ -54,6 +54,6 @@ A lâmpada acesa estará conectada ao interruptor 1, a lâmpada quente estará c
     return novaString;
     }
 
-  let stringOriginal = "Hello, world!"; // String original a ser invertida
-  console.log(inverterString(stringOriginal));
+let stringOriginal = "Hello, world!"; // String original a ser invertida
+console.log(inverterString(stringOriginal));
 ```
